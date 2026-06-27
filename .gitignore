@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+
+# Generated artifacts
+data/code_embeddings.npy
+*.npy
+results.json
+results.xlsx
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
